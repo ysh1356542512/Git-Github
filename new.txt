@@ -1,0 +1,2 @@
+123123 i am in new1 and is different from which in master
+i am changed
