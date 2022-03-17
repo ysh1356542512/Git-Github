@@ -26,25 +26,25 @@
 
 在本地对文件的每一个版本进行快照，如RCS
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20220316205014889.png" alt="image-20220316205014889"  />
+<img src="https://github.com/ysh1356542512/Git-Github/blob/master/pic/image-20220316205014889.png"  />
 
 **2.集中版本控制**
 
 多个开发者在同一台服务器上对文件项目的每一个版本进行快照，如SVN
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20220316205242105.png" alt="image-20220316205242105" style="zoom:67%;" />
+<img src="https://github.com/ysh1356542512/Git-Github/blob/master/pic/image-20220316205242105.png" style="zoom:67%;" />
 
 **3.分布式版本控制**
 
 1和2的结合，既可以在本地对文件进行版本管理，也可以在服务器上进行版本控制，如Git
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20220316205544016.png" alt="image-20220316205544016" style="zoom:80%;" />
+<img src="https://github.com/ysh1356542512/Git-Github/blob/master/pic/image-20220316205544016.png"  style="zoom:80%;" />
 
 > **Git与SVN最主要区别**
 
 SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而工作的时候，用的都是自己的电脑，所以首先要从中央服务器得到最新的版本，然后工作，完成工作后，需要把自己做完的活推送到中央服务器。集中式版本控制系统是必须联网才能工作，对网络带宽要求较高。
 
-![image-20220316210210578](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20220316210210578.png)
+![image-20220316210210578](https://github.com/ysh1356542512/Git-Github/blob/master/pic/image-20220316210210578.png)
 
 Git是分布式版本控制系统，没有中央服务器，每个人的电脑就是一个完整的版本库，工作的时候不需要联网了，因为版本都在自己电脑上。协同的方法是这样的∶比如说自己在电脑上改了文件A，其他人也在电脑上改了文件A，这时，你们两之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。Git可以直接看到更新了哪些代码和文件!
 
