@@ -105,17 +105,17 @@ git cherry-pick
 
 > 在linux下参数有两种用法，甚至在很多命令行也是这样：1.双横线后面加参数的全称，2.单横线加参数的首字母
 
-**git status **—— 查看状态
+**git status**—— 查看状态
 
 - git status 显示暂存区状态
 - git status -s 精简方式显示
 
-**git add **—— 移至暂存区
+**git add**—— 移至暂存区
 
 - git add . 将所有“没被忽略”的文件的修改添加到暂存区（有些文件被.gitignore过滤了）
 - git add * 将所有文件的修改（不管.gitignore）都添加到暂存区
 
-**rm **—— 删除
+**rm**—— 删除
 
 - rm [文件名] 是linux命令，仅仅只是删除工作区文件的命令（此时还没有add）
 
@@ -125,7 +125,7 @@ git cherry-pick
 
   制了，就用本命令
 
-**git commit **—— 提交
+**git commit**—— 提交
 
 - git commit -m "[提交描述]" 直接提交信息
 
@@ -137,7 +137,7 @@ git cherry-pick
 
 - git commit -a -m "[提交描述]"相当于执行git commit -m前先执行git add .
 
-**git branch **—— 分支
+**git branch**—— 分支
 
 - git branch [名称]新建一个分支
 
@@ -177,7 +177,7 @@ git cherry-pick
 
   创建一个分支，则是在当前分支上分离出一个分支（内容和原分支相同）
 
-**git log **—— 查看日志和变化
+**git log**—— 查看日志和变化
 
 - git log 显示所有分支的提交历史记录（把所有分支的提交汇总了），如果一个屏幕显示不下，可以按回
 
@@ -191,7 +191,7 @@ git cherry-pick
 
   表示显示左方的图形化。这样就能看到详细的提交信息了
 
-**git diff **—— 查看工作区和暂存区的区别，即add前后
+**git diff**—— 查看工作区和暂存区的区别，即add前后
 
 - git diff [文件名] 显示工作区和暂存区文件的差异，如果没有add过（暂存区没有它），则对比的是最近
 
